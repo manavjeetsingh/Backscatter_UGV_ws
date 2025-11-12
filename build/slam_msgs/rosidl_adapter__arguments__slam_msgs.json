@@ -1,0 +1,14 @@
+{
+  "package_name": "slam_msgs",
+  "non_idl_tuples": [
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:msg/MapGraph.msg",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:msg/MapData.msg",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:msg/KeyFrame.msg",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:msg/MapPoint.msg",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:msg/SlamInfo.msg",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:srv/GetMap.srv",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:srv/GetLandmarksInView.srv",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:srv/GetAllLandmarksInMap.srv",
+    "/home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs:srv/GetGlobalPointCloud.srv"
+  ]
+}

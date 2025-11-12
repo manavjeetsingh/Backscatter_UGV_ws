@@ -1,0 +1,60 @@
+[0.024s] Invoking command in '/home/wings/Backscatter_UGV_ws/build/orb_slam3_ros2_wrapper': AMENT_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/orb_slam3_ros2_wrapper -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/orb_slam3_ros2_wrapper
+[0.126s] -- The C compiler identification is GNU 9.4.0
+[0.221s] -- The CXX compiler identification is GNU 9.4.0
+[0.229s] -- Check for working C compiler: /usr/bin/cc
+[0.362s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.365s] -- Detecting C compiler ABI info
+[0.502s] -- Detecting C compiler ABI info - done
+[0.537s] -- Detecting C compile features
+[0.538s] -- Detecting C compile features - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.696s] -- Detecting CXX compiler ABI info
+[0.851s] -- Detecting CXX compiler ABI info - done
+[0.884s] -- Detecting CXX compile features
+[0.885s] -- Detecting CXX compile features - done
+[0.887s] Build type: Release
+[0.891s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.942s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.942s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.360s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.457s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.650s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.710s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.961s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.965s] -- Looking for pthread.h
+[2.104s] -- Looking for pthread.h - found
+[2.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.247s] -- Looking for pthread_create in pthreads
+[2.374s] -- Looking for pthread_create in pthreads - not found
+[2.374s] -- Looking for pthread_create in pthread
+[2.516s] -- Looking for pthread_create in pthread - found
+[2.520s] -- Found Threads: TRUE  
+[2.810s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.016s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[3.049s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[3.072s] CMake Error at CMakeLists.txt:36 (find_package):
+[3.073s]   By not providing "FindPangolin.cmake" in CMAKE_MODULE_PATH this project has
+[3.073s]   asked CMake to find a package configuration file provided by "Pangolin",
+[3.073s]   but CMake did not find one.
+[3.073s] 
+[3.074s]   Could not find a package configuration file provided by "Pangolin" with any
+[3.074s]   of the following names:
+[3.074s] 
+[3.074s]     PangolinConfig.cmake
+[3.074s]     pangolin-config.cmake
+[3.075s] 
+[3.075s]   Add the installation prefix of "Pangolin" to CMAKE_PREFIX_PATH or set
+[3.075s]   "Pangolin_DIR" to a directory containing one of the above files.  If
+[3.076s]   "Pangolin" provides a separate development package or SDK, be sure it has
+[3.076s]   been installed.
+[3.076s] 
+[3.076s] 
+[3.077s] -- Configuring incomplete, errors occurred!
+[3.078s] See also "/home/wings/Backscatter_UGV_ws/build/orb_slam3_ros2_wrapper/CMakeFiles/CMakeOutput.log".
+[3.078s] See also "/home/wings/Backscatter_UGV_ws/build/orb_slam3_ros2_wrapper/CMakeFiles/CMakeError.log".
+[3.098s] Invoked command in '/home/wings/Backscatter_UGV_ws/build/orb_slam3_ros2_wrapper' returned '1': AMENT_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wings/Backscatter_UGV_ws/install/slam_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/orb_slam3_ros2_wrapper -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/orb_slam3_ros2_wrapper

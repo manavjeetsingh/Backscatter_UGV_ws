@@ -1,0 +1,25 @@
+[1.458s] Invoking command in '/home/wings/Backscatter_UGV_ws/src/backscatter_rover_data_recorder': PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/backscatter_rover_data_recorder build --build-base /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build install --record /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log --install-scripts $base/lib/backscatter_rover_data_recorder --single-version-externally-managed install_data
+[1.907s] running egg_info
+[1.908s] writing ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/PKG-INFO
+[1.909s] writing dependency_links to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/dependency_links.txt
+[1.909s] writing entry points to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/entry_points.txt
+[1.910s] writing requirements to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/requires.txt
+[1.910s] writing top-level names to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/top_level.txt
+[1.973s] reading manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+[1.975s] writing manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+[1.975s] running build
+[1.976s] running build_py
+[1.976s] copying backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.977s] running install
+[1.979s] running install_lib
+[1.981s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.983s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/movementAPI.py to movementAPI.cpython-38.pyc
+[1.988s] running install_data
+[1.988s] running install_egg_info
+[1.992s] removing '/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder-0.0.0-py3.8.egg-info' (and everything under it)
+[1.992s] Copying ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder-0.0.0-py3.8.egg-info
+[1.994s] running install_scripts
+[2.030s] Installing controller script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+[2.031s] Installing recorder_service script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+[2.032s] writing list of installed files to '/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log'
+[2.096s] Invoked command in '/home/wings/Backscatter_UGV_ws/src/backscatter_rover_data_recorder' returned '0': PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/backscatter_rover_data_recorder build --build-base /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build install --record /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log --install-scripts $base/lib/backscatter_rover_data_recorder --single-version-externally-managed install_data

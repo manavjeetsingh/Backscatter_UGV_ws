@@ -1,0 +1,36 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from backscatter_movement_record_msgs_srvs:msg/OdomWithExpmtFlag.idl
+// generated code does not contain a copyright notice
+#ifndef BACKSCATTER_MOVEMENT_RECORD_MSGS_SRVS__MSG__DETAIL__ODOM_WITH_EXPMT_FLAG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define BACKSCATTER_MOVEMENT_RECORD_MSGS_SRVS__MSG__DETAIL__ODOM_WITH_EXPMT_FLAG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "backscatter_movement_record_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_backscatter_movement_record_msgs_srvs
+size_t get_serialized_size_backscatter_movement_record_msgs_srvs__msg__OdomWithExpmtFlag(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_backscatter_movement_record_msgs_srvs
+size_t max_serialized_size_backscatter_movement_record_msgs_srvs__msg__OdomWithExpmtFlag(
+  bool & full_bounded,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_backscatter_movement_record_msgs_srvs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, backscatter_movement_record_msgs_srvs, msg, OdomWithExpmtFlag)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // BACKSCATTER_MOVEMENT_RECORD_MSGS_SRVS__MSG__DETAIL__ODOM_WITH_EXPMT_FLAG__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

@@ -1,0 +1,4 @@
+[console_scripts]
+controller = backscatter_rover_data_recorder.controller:main
+recorder_service = backscatter_rover_data_recorder.savingBagData:main
+

@@ -1,0 +1,7 @@
+[0.066s] Invoking command in '/home/wings/Backscatter_UGV_ws/build/rosbag2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/rosbag2/rosbag2_interfaces -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/rosbag2_interfaces
+[0.102s] -- Configuring incomplete, errors occurred!
+[0.102s] CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.102s]   CMake 3.20 or higher is required.  You are running version 3.16.3
+[0.103s] 
+[0.103s] 
+[0.127s] Invoked command in '/home/wings/Backscatter_UGV_ws/build/rosbag2_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/rosbag2/rosbag2_interfaces -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/rosbag2_interfaces

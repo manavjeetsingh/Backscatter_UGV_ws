@@ -1,0 +1,4 @@
+source;share/backscatter_movement_record_msgs_srvs/local_setup.bash
+source;share/backscatter_movement_record_msgs_srvs/local_setup.dsv
+source;share/backscatter_movement_record_msgs_srvs/local_setup.sh
+source;share/backscatter_movement_record_msgs_srvs/local_setup.zsh

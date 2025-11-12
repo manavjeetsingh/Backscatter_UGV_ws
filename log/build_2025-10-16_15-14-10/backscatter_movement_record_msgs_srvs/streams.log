@@ -1,0 +1,152 @@
+[0.051s] Invoking command in '/home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs -- -j6 -l6
+[0.208s] [  2%] Built target backscatter_movement_record_msgs_srvs__cpp
+[0.217s] [ 12%] Built target backscatter_movement_record_msgs_srvs__rosidl_generator_c
+[0.284s] [ 23%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_cpp
+[0.294s] [ 33%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cpp
+[0.315s] [ 53%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_c
+[0.315s] [ 53%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_c
+[0.319s] [ 64%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[0.378s] [ 74%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c
+[0.418s] [ 74%] Built target backscatter_movement_record_msgs_srvs
+[0.464s] [ 76%] Built target backscatter_movement_record_msgs_srvs__py
+[0.527s] [ 84%] Built target backscatter_movement_record_msgs_srvs__python
+[0.583s] [ 89%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_c__pyext
+[0.586s] [ 94%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_c__pyext
+[0.614s] [100%] Built target backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.654s] Invoked command in '/home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs -- -j6 -l6
+[0.659s] Invoking command in '/home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --install /home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs
+[0.680s] -- Install configuration: ""
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/backscatter_movement_record_msgs_srvs
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__struct.h
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support.h
+[0.682s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__functions.h
+[0.683s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__functions.c
+[0.683s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/odom_record.h
+[0.683s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.684s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.684s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__functions.c
+[0.685s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support.h
+[0.685s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__functions.h
+[0.685s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__struct.h
+[0.686s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.687s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/odom_with_expmt_flag.h
+[0.687s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/library_path.sh
+[0.687s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/library_path.dsv
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_generator_c.so
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__rosidl_typesupport_fastrtps_c.h
+[0.688s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.689s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.689s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__rosidl_typesupport_fastrtps_c.h
+[0.689s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.692s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[0.694s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.694s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.695s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.695s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__rosidl_typesupport_fastrtps_cpp.hpp
+[0.695s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/dds_fastrtps
+[0.695s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.696s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.696s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[0.696s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/dds_fastrtps
+[0.696s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.697s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support.c
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__rosidl_typesupport_introspection_c.h
+[0.698s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.699s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.699s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.699s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__rosidl_typesupport_introspection_c.h
+[0.699s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support.c
+[0.699s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_c.so
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_c.so
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support.hpp
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__struct.hpp
+[0.700s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__builder.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__traits.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/odom_record.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__traits.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__struct.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__builder.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support.hpp
+[0.701s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/odom_with_expmt_flag.hpp
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support.cpp
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__rosidl_typesupport_introspection_cpp.hpp
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg
+[0.702s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support.cpp
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/include/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__rosidl_typesupport_introspection_cpp.hpp
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_cpp.so
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/pythonpath.sh
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/pythonpath.dsv
+[0.703s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/__init__.py
+[0.773s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/srv
+[0.773s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/srv/_odom_record_s.c
+[0.773s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/srv/__init__.py
+[0.774s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/srv/_odom_record.py
+[0.774s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/msg
+[0.774s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/msg/_odom_with_expmt_flag_s.c
+[0.774s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/msg/_odom_with_expmt_flag.py
+[0.775s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/msg/__init__.py
+[0.775s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/backscatter_movement_record_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.778s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/backscatter_movement_record_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.781s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/python3.8/site-packages/backscatter_movement_record_msgs_srvs/backscatter_movement_record_msgs_srvs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.781s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/lib/libbackscatter_movement_record_msgs_srvs__python.so
+[0.782s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/srv/OdomRecord.idl
+[0.782s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/msg/OdomWithExpmtFlag.idl
+[0.783s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/srv/OdomRecord.srv
+[0.783s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/srv/OdomRecord_Request.msg
+[0.783s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/srv/OdomRecord_Response.msg
+[0.783s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/msg/OdomWithExpmtFlag.msg
+[0.783s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/backscatter_movement_record_msgs_srvs
+[0.784s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/backscatter_movement_record_msgs_srvs
+[0.784s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/ament_prefix_path.sh
+[0.785s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/ament_prefix_path.dsv
+[0.785s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/path.sh
+[0.785s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/environment/path.dsv
+[0.785s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/local_setup.bash
+[0.786s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/local_setup.sh
+[0.786s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/local_setup.zsh
+[0.786s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/local_setup.dsv
+[0.786s] -- Installing: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/package.dsv
+[0.786s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/ament_index/resource_index/packages/backscatter_movement_record_msgs_srvs
+[0.788s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_generator_cExport.cmake
+[0.788s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[0.789s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[0.789s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.791s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_cExport.cmake
+[0.791s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[0.792s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_generator_cppExport.cmake
+[0.793s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[0.793s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.794s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[0.794s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.795s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[0.795s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.795s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.795s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[0.795s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.798s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.799s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.800s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvsConfig.cmake
+[0.800s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/cmake/backscatter_movement_record_msgs_srvsConfig-version.cmake
+[0.801s] -- Up-to-date: /home/wings/Backscatter_UGV_ws/install/backscatter_movement_record_msgs_srvs/share/backscatter_movement_record_msgs_srvs/package.xml
+[0.873s] Invoked command in '/home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --install /home/wings/Backscatter_UGV_ws/build/backscatter_movement_record_msgs_srvs

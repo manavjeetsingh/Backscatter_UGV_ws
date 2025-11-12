@@ -1,0 +1,4 @@
+light off
+Lin 0.20 0.1
+expmt 30
+light off

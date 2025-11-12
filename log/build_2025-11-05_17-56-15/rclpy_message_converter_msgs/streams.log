@@ -1,0 +1,15 @@
+[0.066s] Invoking command in '/home/wings/Backscatter_UGV_ws/build/rclpy_message_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter_msgs -- -j6 -l6
+[0.204s] [  1%] Built target rclpy_message_converter_msgs__cpp
+[0.208s] [ 12%] Built target rclpy_message_converter_msgs__rosidl_generator_c
+[0.254s] [ 31%] Built target rclpy_message_converter_msgs__rosidl_typesupport_introspection_cpp
+[0.255s] [ 34%] Built target rclpy_message_converter_msgs__rosidl_typesupport_cpp
+[0.257s] [ 46%] Built target rclpy_message_converter_msgs__rosidl_typesupport_c
+[0.258s] [ 57%] Built target rclpy_message_converter_msgs__rosidl_typesupport_introspection_c
+[0.266s] [ 68%] Built target rclpy_message_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[0.327s] [ 79%] Built target rclpy_message_converter_msgs__rosidl_typesupport_fastrtps_c
+[0.368s] [ 79%] Built target rclpy_message_converter_msgs
+[0.411s] [ 80%] Built target rclpy_message_converter_msgs__py
+[0.474s] [ 90%] Built target rclpy_message_converter_msgs__python
+[0.528s] [100%] Built target rclpy_message_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.528s] [100%] Built target rclpy_message_converter_msgs__rosidl_typesupport_c__pyext
+[0.529s] [100%] Built target rclpy_message_converter_msgs__rosidl_typesupport_introspection_c__pyext

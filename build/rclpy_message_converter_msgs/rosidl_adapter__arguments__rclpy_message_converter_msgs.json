@@ -1,0 +1,10 @@
+{
+  "package_name": "rclpy_message_converter_msgs",
+  "non_idl_tuples": [
+    "/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter_msgs:msg/NestedUint8ArrayTestMessage.msg",
+    "/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter_msgs:msg/TestArray.msg",
+    "/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter_msgs:msg/Uint8Array3TestMessage.msg",
+    "/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter_msgs:msg/Uint8ArrayTestMessage.msg",
+    "/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter_msgs:srv/NestedUint8ArrayTestService.srv"
+  ]
+}

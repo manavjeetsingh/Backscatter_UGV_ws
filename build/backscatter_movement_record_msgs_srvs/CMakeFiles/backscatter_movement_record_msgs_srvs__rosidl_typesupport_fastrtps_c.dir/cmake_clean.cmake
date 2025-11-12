@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support_c.cpp.o"
+  "CMakeFiles/backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support_c.cpp.o"
+  "libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.pdb"
+  "libbackscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/msg/detail/odom_with_expmt_flag__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/backscatter_movement_record_msgs_srvs/srv/detail/odom_record__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/backscatter_movement_record_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

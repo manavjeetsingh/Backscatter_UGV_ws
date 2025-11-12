@@ -1,0 +1,50 @@
+[1.444s] Invoking command in '/home/wings/Backscatter_UGV_ws/src/backscatter_rover_data_recorder': PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/backscatter_rover_data_recorder build --build-base /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build install --record /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log --install-scripts $base/lib/backscatter_rover_data_recorder --single-version-externally-managed install_data
+[1.897s] running egg_info
+[1.899s] creating ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info
+[1.900s] writing ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/PKG-INFO
+[1.900s] writing dependency_links to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/dependency_links.txt
+[1.901s] writing entry points to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/entry_points.txt
+[1.901s] writing requirements to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/requires.txt
+[1.901s] writing top-level names to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/top_level.txt
+[1.904s] writing manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+[1.969s] reading manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+[1.970s] writing manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+[1.971s] running build
+[1.971s] running build_py
+[1.972s] creating /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build
+[1.972s] creating /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib
+[1.972s] creating /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.972s] copying backscatter_rover_data_recorder/savingBagData.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.973s] copying backscatter_rover_data_recorder/base_ctrl.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.973s] copying backscatter_rover_data_recorder/controller.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.973s] copying backscatter_rover_data_recorder/__init__.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.974s] copying backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.974s] copying backscatter_rover_data_recorder/odomSubscriberService.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+[1.975s] running install
+[1.977s] running install_lib
+[1.979s] creating /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.979s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/savingBagData.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.979s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/base_ctrl.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.980s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/controller.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.980s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/__init__.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.980s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.981s] copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/odomSubscriberService.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+[1.981s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/savingBagData.py to savingBagData.cpython-38.pyc
+[1.985s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/base_ctrl.py to base_ctrl.cpython-38.pyc
+[1.987s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/controller.py to controller.cpython-38.pyc
+[1.988s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/__init__.py to __init__.cpython-38.pyc
+[1.989s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/movementAPI.py to movementAPI.cpython-38.pyc
+[1.991s] byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/odomSubscriberService.py to odomSubscriberService.cpython-38.pyc
+[1.992s] running install_data
+[1.993s] creating /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/share/ament_index
+[1.993s] creating /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/share/ament_index/resource_index
+[1.993s] creating /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/share/ament_index/resource_index/packages
+[1.993s] copying resource/backscatter_rover_data_recorder -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/share/ament_index/resource_index/packages
+[1.993s] copying package.xml -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/share/backscatter_rover_data_recorder
+[1.993s] running install_egg_info
+[1.997s] Copying ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder-0.0.0-py3.8.egg-info
+[1.999s] running install_scripts
+[2.036s] Installing controller script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+[2.036s] Installing recorder_service script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+[2.037s] writing list of installed files to '/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log'
+[2.098s] Invoked command in '/home/wings/Backscatter_UGV_ws/src/backscatter_rover_data_recorder' returned '0': PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/backscatter_rover_data_recorder build --build-base /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build install --record /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log --install-scripts $base/lib/backscatter_rover_data_recorder --single-version-externally-managed install_data

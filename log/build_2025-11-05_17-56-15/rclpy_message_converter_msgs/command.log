@@ -1,0 +1,1 @@
+Invoking command in '/home/wings/Backscatter_UGV_ws/build/rclpy_message_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter:/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder:/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter_msgs -- -j6 -l6

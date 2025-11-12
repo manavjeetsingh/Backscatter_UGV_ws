@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/PKG-INFO
+writing dependency_links to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/dependency_links.txt
+writing entry points to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/entry_points.txt
+writing requirements to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/requires.txt
+writing top-level names to ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/top_level.txt
+reading manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+writing manifest file '../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info/SOURCES.txt'
+running build
+running build_py
+copying backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder
+running install
+running install_lib
+copying /home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/build/lib/backscatter_rover_data_recorder/movementAPI.py -> /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder
+byte-compiling /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder/movementAPI.py to movementAPI.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/backscatter_rover_data_recorder/backscatter_rover_data_recorder.egg-info to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/python3.8/site-packages/backscatter_rover_data_recorder-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+Installing recorder_service script to /home/wings/Backscatter_UGV_ws/install/backscatter_rover_data_recorder/lib/backscatter_rover_data_recorder
+writing list of installed files to '/home/wings/Backscatter_UGV_ws/build/backscatter_rover_data_recorder/install.log'

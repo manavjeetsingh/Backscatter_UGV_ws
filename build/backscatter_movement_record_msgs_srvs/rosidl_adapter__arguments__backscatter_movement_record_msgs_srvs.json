@@ -1,0 +1,7 @@
+{
+  "package_name": "backscatter_movement_record_msgs_srvs",
+  "non_idl_tuples": [
+    "/home/wings/Backscatter_UGV_ws/src/backscatter_movement_record_msgs_srvs:srv/OdomRecord.srv",
+    "/home/wings/Backscatter_UGV_ws/src/backscatter_movement_record_msgs_srvs:msg/OdomWithExpmtFlag.msg"
+  ]
+}

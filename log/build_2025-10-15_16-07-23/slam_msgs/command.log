@@ -1,0 +1,6 @@
+Invoking command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/slam_msgs
+Invoked command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wings/Backscatter_UGV_ws/src/ORB-SLAM3-ROS2-Docker/slam_msgs -DCMAKE_INSTALL_PREFIX=/home/wings/Backscatter_UGV_ws/install/slam_msgs
+Invoking command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/slam_msgs -- -j6 -l6
+Invoked command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wings/Backscatter_UGV_ws/build/slam_msgs -- -j6 -l6
+Invoking command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wings/Backscatter_UGV_ws/build/slam_msgs
+Invoked command in '/home/wings/Backscatter_UGV_ws/build/slam_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wings/Backscatter_UGV_ws/build/slam_msgs

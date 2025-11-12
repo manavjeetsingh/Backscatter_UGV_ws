@@ -1,0 +1,35 @@
+light on
+Lin 0.1 0.1
+expmt 30
+Lin 0.1 0.1
+expmt 30
+Turn -40 0.1
+expmt 30
+Lin 0.2 0.1
+expmt 30
+Lin 0.2 0.1
+expmt 30
+Lin 0.1 0.1
+expmt 30
+Turn 80 0.1
+expmt 30
+Lin 0.3 0.1
+expmt 30
+Lin 0.3 0.1
+expmt 30
+Lin 0.4 0.1
+expmt 30
+Turn -80 0.1
+expmt 30
+Lin 0.5 0.1
+Turn -80 0.1
+expmt 30
+Lin 0.2 0.1
+Lin 0.3 0.1
+expmt 30
+Turn -80 0.1
+Lin 0.5 0.1
+expmt 30
+Lin 0.5 0.1
+expmt 30
+light off

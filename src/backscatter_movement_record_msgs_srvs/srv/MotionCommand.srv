@@ -1,0 +1,5 @@
+string cmd
+float32 rate
+float32 target
+---
+bool resp

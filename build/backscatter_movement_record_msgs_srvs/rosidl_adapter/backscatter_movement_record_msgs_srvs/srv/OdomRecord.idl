@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from backscatter_movement_record_msgs_srvs/srv/OdomRecord.srv
+// generated code does not contain a copyright notice
+
+
+module backscatter_movement_record_msgs_srvs {
+  module srv {
+    struct OdomRecord_Request {
+      boolean req;
+
+      string expmt_name;
+
+      boolean backscatter_expmt_flag;
+    };
+    struct OdomRecord_Response {
+      boolean resp;
+    };
+  };
+};

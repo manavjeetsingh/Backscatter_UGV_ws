@@ -1,0 +1,39 @@
+[1.343s] Invoking command in '/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter': AMENT_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs LD_LIBRARY_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rclpy_message_converter build --build-base /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build install --record /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/install.log --single-version-externally-managed install_data
+[1.759s] running egg_info
+[1.760s] creating ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info
+[1.760s] writing ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/PKG-INFO
+[1.761s] writing dependency_links to ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/dependency_links.txt
+[1.761s] writing entry points to ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/entry_points.txt
+[1.761s] writing requirements to ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/requires.txt
+[1.761s] writing top-level names to ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/top_level.txt
+[1.763s] writing manifest file '../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/SOURCES.txt'
+[1.823s] reading manifest file '../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/SOURCES.txt'
+[1.824s] writing manifest file '../../../build/rclpy_message_converter/rclpy_message_converter.egg-info/SOURCES.txt'
+[1.824s] running build
+[1.824s] running build_py
+[1.825s] creating /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build
+[1.825s] creating /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib
+[1.825s] creating /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter
+[1.825s] copying rclpy_message_converter/message_converter.py -> /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter
+[1.826s] copying rclpy_message_converter/json_message_converter.py -> /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter
+[1.826s] copying rclpy_message_converter/__init__.py -> /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter
+[1.826s] running install
+[1.828s] running install_lib
+[1.830s] creating /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter
+[1.830s] copying /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter/message_converter.py -> /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter
+[1.830s] copying /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter/json_message_converter.py -> /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter
+[1.831s] copying /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build/lib/rclpy_message_converter/__init__.py -> /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter
+[1.832s] byte-compiling /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter/message_converter.py to message_converter.cpython-38.pyc
+[1.836s] byte-compiling /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter/json_message_converter.py to json_message_converter.cpython-38.pyc
+[1.837s] byte-compiling /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter/__init__.py to __init__.cpython-38.pyc
+[1.837s] running install_data
+[1.837s] creating /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/share/ament_index
+[1.838s] creating /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/share/ament_index/resource_index
+[1.838s] creating /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/share/ament_index/resource_index/packages
+[1.838s] copying resource/rclpy_message_converter -> /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/share/ament_index/resource_index/packages
+[1.838s] copying package.xml -> /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/share/rclpy_message_converter
+[1.838s] running install_egg_info
+[1.841s] Copying ../../../build/rclpy_message_converter/rclpy_message_converter.egg-info to /home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages/rclpy_message_converter-2.0.1-py3.8.egg-info
+[1.843s] running install_scripts
+[1.877s] writing list of installed files to '/home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/install.log'
+[1.936s] Invoked command in '/home/wings/Backscatter_UGV_ws/src/rospy_message_converter/rclpy_message_converter' returned '0': AMENT_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs LD_LIBRARY_PATH=/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter/lib/python3.8/site-packages:/home/wings/Backscatter_UGV_ws/install/rclpy_message_converter_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rclpy_message_converter build --build-base /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/build install --record /home/wings/Backscatter_UGV_ws/build/rclpy_message_converter/install.log --single-version-externally-managed install_data
