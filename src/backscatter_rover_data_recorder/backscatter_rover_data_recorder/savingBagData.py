@@ -36,7 +36,7 @@ class BagSaver(Node):
 
     def pc_callback(self, msg):
         self.latest_pc = msg
-        self.get_logger().info("Received point cloud.")
+        self.get_logger().info(f"Received point cloud. {self.latest_pc is None}")
 
     def image_callback(self, msg):
 
@@ -81,6 +81,7 @@ def main(args=None):
         bag_saver.get_logger().info('Interrupted. Saving final data...')
         bag_saver.save_final_data()
     finally:
+        bag_saver.save_final_data()
         bag_saver.destroy_node()
         rclpy.shutdown()
 

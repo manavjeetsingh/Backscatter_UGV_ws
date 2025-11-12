@@ -36,6 +36,9 @@ class Controller(MovementAPI):
             newReq.expmt_name = self.expmt_name #TODO: Needs to change later
             newReq.backscatter_expmt_flag = False
             newResp = OdomRecord.Response()
+            # Ignore comments in the inputs file
+            if command.strip()[0]=='#':
+                continue
             if command.strip().split()[0] == 'expmt' or command.strip().split()[0] == 'experiment':
                 print(f"\nFollowing command: {command}")
                 newReq.backscatter_expmt_flag = True
@@ -78,14 +81,14 @@ class Controller(MovementAPI):
         if req.req:
             self.msg.expmt_flag = req.backscatter_expmt_flag
             msg_dict = message_converter.convert_ros_message_to_dictionary(self.msg)
-            if not os.path.isfile(f"{req.expmt_name}.json"):
-                with open(f"{req.expmt_name}.json", 'w+') as f:
+            if not os.path.isfile(f"experiments/{req.expmt_name}/{req.expmt_name}.json"):
+                with open(f"experiments/{req.expmt_name}/{req.expmt_name}.json", 'w+') as f:
                     json.dump([msg_dict], f, indent=4)
             else:
-                with open(f"{req.expmt_name}.json", 'r') as f:
+                with open(f"experiments/{req.expmt_name/{req.expmt_name}}.json", 'r') as f:
                     present_data = json.load(f)
                     present_data.append(msg_dict)
-                with open(f"{req.expmt_name}.json", 'w') as f:
+                with open(f"experiments/{req.expmt_name}/{req.expmt_name}.json", 'w') as f:
                     json.dump(present_data, f, indent=4)
             resp.resp = True
         print(f"Sending Resp: {resp}")

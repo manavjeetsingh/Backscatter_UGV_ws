@@ -14,5 +14,5 @@ FOLDER_NAME=$1
 mkdir -p "$FOLDER_NAME"
 
 # Record ROS2 bag in the specified folder
-ros2 bag record -o "${FOLDER_NAME}/subset" /cloud_map /grid_prob_map /odom /mapPath
+ros2 bag record -o "experiments/${FOLDER_NAME}/subset" /cloud_map /grid_prob_map /odom /mapPath
 
