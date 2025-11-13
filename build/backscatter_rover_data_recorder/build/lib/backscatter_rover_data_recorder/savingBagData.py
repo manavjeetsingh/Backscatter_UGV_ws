@@ -36,7 +36,7 @@ class BagSaver(Node):
 
     def pc_callback(self, msg):
         self.latest_pc = msg
-        self.get_logger().info("Received point cloud.")
+        self.get_logger().info(f"Received point cloud. {self.latest_pc is None}")
 
     def image_callback(self, msg):
 
@@ -57,11 +57,11 @@ class BagSaver(Node):
     def save_final_data(self):
         if self.latest_pc:
             points = np.array(list(pc2.read_points(
-                self.latest_pc, field_names=("x", "y", "z"), skip_nans=True)))
+                self.latest_pc, skip_nans=True)))
 
             pc_o3d = o3d.geometry.PointCloud()
             pc_o3d.points = o3d.utility.Vector3dVector(points)
-            o3d.io.write_point_cloud(f"{self.expmt_name}/final_pointcloud.pcd", pc_o3d)
+            o3d.io.write_point_cloud(f"{self.expmt_name}/final_pointcloud.ply", pc_o3d)
             self.get_logger().info("Saved final point cloud.")
 
         if self.latest_image:

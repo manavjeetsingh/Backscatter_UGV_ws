@@ -61,7 +61,7 @@ class BagSaver(Node):
 
             pc_o3d = o3d.geometry.PointCloud()
             pc_o3d.points = o3d.utility.Vector3dVector(points)
-            o3d.io.write_point_cloud(f"{self.expmt_name}/final_pointcloud.pcd", pc_o3d)
+            o3d.io.write_point_cloud(f"{self.expmt_name}/final_pointcloud.ply", pc_o3d)
             self.get_logger().info("Saved final point cloud.")
 
         if self.latest_image:
@@ -81,7 +81,6 @@ def main(args=None):
         bag_saver.get_logger().info('Interrupted. Saving final data...')
         bag_saver.save_final_data()
     finally:
-        bag_saver.save_final_data()
         bag_saver.destroy_node()
         rclpy.shutdown()
 
