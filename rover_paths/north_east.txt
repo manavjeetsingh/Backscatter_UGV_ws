@@ -1,0 +1,16 @@
+light on
+Lin 0.1 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+Turn 50 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+Turn 100 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+Turn 50 0.1
+Lin 0.1 0.1
+Lin 0.1 0.1
+light off

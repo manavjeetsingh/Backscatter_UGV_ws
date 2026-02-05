@@ -85,7 +85,7 @@ class Controller(MovementAPI):
                 with open(f"experiments/{req.expmt_name}/{req.expmt_name}.json", 'w+') as f:
                     json.dump([msg_dict], f, indent=4)
             else:
-                with open(f"experiments/{req.expmt_name/{req.expmt_name}}.json", 'r') as f:
+                with open(f"experiments/{req.expmt_name}/{req.expmt_name}.json", 'r') as f:
                     present_data = json.load(f)
                     present_data.append(msg_dict)
                 with open(f"experiments/{req.expmt_name}/{req.expmt_name}.json", 'w') as f:

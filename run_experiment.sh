@@ -54,7 +54,7 @@ if [ -f "$JSON_FILE" ]; then
     echo "JSON file already exists, not overwriting: $JSON_FILE"
     exit 0
 else
-    echo "" > "$JSON_FILE"
+    echo "[]" > "$JSON_FILE"
     echo "Created JSON file: $JSON_FILE"
 fi
 

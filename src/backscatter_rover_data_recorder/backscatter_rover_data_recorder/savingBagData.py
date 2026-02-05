@@ -25,6 +25,9 @@ class BagSaver(Node):
         self.image_subscriber = self.create_subscription(
             Image, '/camera/color/image_raw', self.image_callback, 10)
 
+        #self.map_subscriber = self.create_subscription(
+        #    PointCloud2, '/grid_prob_map', self.map_callback, 10)
+
         self.bridge = CvBridge()
         self.latest_pc = None
         self.latest_image = None
@@ -37,6 +40,7 @@ class BagSaver(Node):
     def pc_callback(self, msg):
         self.latest_pc = msg
         self.get_logger().info(f"Received point cloud. {self.latest_pc is None}")
+
 
     def image_callback(self, msg):
 
@@ -56,14 +60,19 @@ class BagSaver(Node):
 
     def save_final_data(self):
         if self.latest_pc:
+            field_names = ("x", "y", "z", "rgb")
             points = np.array(list(pc2.read_points(
-                self.latest_pc, skip_nans=True)))
-
+                self.latest_pc, field_names=field_names, skip_nans=False)))
             pc_o3d = o3d.geometry.PointCloud()
-            pc_o3d.points = o3d.utility.Vector3dVector(points)
+            pc_o3d.points = o3d.utility.Vector3dVector(points[:, :3])
+            colors = points[:, 3]
+            colors = colors.astype(np.float32)
+            colors = colors[:,None].view(np.uint8)
+            colors_vec =  o3d.utility.Vector3dVector(colors[:, :3].astype(np.float32)/255.)
+            pc_o3d.colors = colors_vec
             o3d.io.write_point_cloud(f"{self.expmt_name}/final_pointcloud.ply", pc_o3d)
             self.get_logger().info("Saved final point cloud.")
-
+            o3d.visualization.draw_geometries([pc_o3d])
         if self.latest_image:
             self.video.release()
 
@@ -83,4 +92,3 @@ def main(args=None):
     finally:
         bag_saver.destroy_node()
         rclpy.shutdown()
-

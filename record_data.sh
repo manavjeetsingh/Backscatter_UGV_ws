@@ -11,8 +11,8 @@ fi
 FOLDER_NAME=$1
 
 # Create the folder if it doesn't exist
-mkdir -p "$FOLDER_NAME"
+# mkdir -p "$FOLDER_NAME"
 
 # Record ROS2 bag in the specified folder
-ros2 bag record -o "experiments/${FOLDER_NAME}/subset" /cloud_map /grid_prob_map /odom /mapPath
+ros2 bag record -o "experiments/${FOLDER_NAME}/subset" /cloud_map /grid_prob_map /odom /mapPath /tf /tf_static
 

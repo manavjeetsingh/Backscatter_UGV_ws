@@ -1,0 +1,9 @@
+light on
+expmt 30
+Lin 0.4 0.1
+expmt 30
+Lin 0.4 0.1
+expmt 30
+Lin 0.4 0.1
+expmt 30
+light off
