@@ -53,12 +53,12 @@ class Controller(MovementAPI):
                 
     
     def conductExperiment(self, failure_reps, num_expmts, repetitions):
-        laptopIP = '130.245.144.104'
+        laptopIP = '130.245.144.103'
         port = '8001'
         config_dict={
             "run_exp_num": num_expmts,
-            "freq_range_start": 775,
-            "freq_range_stop": 1000,
+            "freq_range_start": 845,
+            "freq_range_stop": 955,
             "freq_range_interval": 10,
             "repetitions": repetitions,
         }
