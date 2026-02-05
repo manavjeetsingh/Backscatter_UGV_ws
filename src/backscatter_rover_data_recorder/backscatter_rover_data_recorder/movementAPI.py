@@ -229,7 +229,7 @@ class MovementAPI(Node):
             print(user_input)
             print(user_input[0])
             print("light" in user_input[0])
-            if len(user_input)!=3 and "light" not in user_input[0]:
+            if len(user_input)!=3 and "light" not in user_input[0] and "pause" not in user_input[0]:
                 invalid=True
             else:
                 if (user_input[0]=="Lin" or user_input[0]=="lin" or user_input[0]=="l"\
@@ -240,8 +240,11 @@ class MovementAPI(Node):
                 or user_input[0]=="t") and user_input[1].lstrip('-').replace(".","").isnumeric():
                     print("turning", float(user_input[1]))
                     self.turn(angle=float(user_input[1]), ang_speed = float(user_input[2]))
+                elif ('pause' in user_input[0]):
+                    print(f"PAUSING {user_input[1]}")
+                    time.sleep(float(user_input[1]))
                 elif ("light" in user_input[0]):
-                    print("I AM INNNN")
+                    print("LIGHTS {user_input[1]}")
                     if "on" in user_input[1]:
                         self.base.lights_ctrl(255, 255)
                     else:

@@ -1,16 +1,30 @@
 light on
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Turn 50 0.1
+pause 20
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Turn 100 0.1
+pause 20
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 Turn 50 0.1
+pause 20
 Lin 0.1 0.1
+pause 5
 Lin 0.1 0.1
+pause 5
 light off
