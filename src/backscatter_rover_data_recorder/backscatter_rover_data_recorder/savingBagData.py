@@ -14,7 +14,7 @@ class BagSaver(Node):
         super().__init__('bag_saver')
 
 
-        self.declare_parameter('expmt_name', 'Experiment1')
+        self.declare_parameter('expmt_name', 'Experiment_any')
         self.expmt_name = self.get_parameter('expmt_name').value + "_dataout"
 
         os.makedirs(self.expmt_name, exist_ok=True)
