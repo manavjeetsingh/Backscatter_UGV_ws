@@ -14,9 +14,15 @@ expmt 30
 Turn -30 0.1
 pause 20
 expmt 30
+
+Lin 0.2 0.1
+
 Turn -30 0.1
 pause 20
 expmt 30
+
+Lin 0.4 0.1
+
 Turn -30 0.1
 pause 20
 expmt 30
@@ -35,16 +41,16 @@ expmt 30
 Turn -120 0.1
 pause 20
 expmt 30
-Lin 0.4 0.05
+Lin 0.2 0.05
 pause 10
 expmt 30
-Lin 0.4 0.05
+Lin 0.2 0.05
 pause 10
 expmt 30
-Lin 0.4 0.05
+Lin 0.2 0.05
 pause 10
 expmt 30
-Lin 0.4 0.05
+Lin 0.2 0.05
 pause 10
 expmt 30
 light off

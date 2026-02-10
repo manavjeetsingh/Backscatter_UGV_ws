@@ -32,7 +32,7 @@ class Controller(MovementAPI):
         num_expmts = 0
         for command in commands:
             # Ignore comments in the inputs file
-            if command.strip()[0]=='#' or command=="":
+            if  command.strip()=="" or command.strip()[0]=='#':
                 continue
             newReq = OdomRecord.Request()
             newReq.req = True

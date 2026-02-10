@@ -1,3 +1,5 @@
 light on
+
 pause 5
+
 light off
