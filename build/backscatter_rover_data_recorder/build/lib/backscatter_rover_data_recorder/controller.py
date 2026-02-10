@@ -31,14 +31,15 @@ class Controller(MovementAPI):
             commands = f.readlines()
         num_expmts = 0
         for command in commands:
+            # Ignore comments in the inputs file
+            if command.strip()[0]=='#' or command=="":
+                continue
             newReq = OdomRecord.Request()
             newReq.req = True
             newReq.expmt_name = self.expmt_name #TODO: Needs to change later
             newReq.backscatter_expmt_flag = False
             newResp = OdomRecord.Response()
-            # Ignore comments in the inputs file
-            if command.strip()[0]=='#':
-                continue
+
             if command.strip().split()[0] == 'expmt' or command.strip().split()[0] == 'experiment':
                 print(f"\nFollowing command: {command}")
                 newReq.backscatter_expmt_flag = True

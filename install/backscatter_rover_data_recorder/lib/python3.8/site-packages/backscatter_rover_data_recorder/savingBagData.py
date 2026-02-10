@@ -12,12 +12,17 @@ import os
 class BagSaver(Node):
     def __init__(self):
         super().__init__('bag_saver')
+        save_dir = os.environ['exp_dir']
+        if save_dir[-1]=='/':
+            save_dir=save_dir[:-1]
 
-
-        self.declare_parameter('expmt_name', 'Experiment_any')
-        self.expmt_name = self.get_parameter('expmt_name').value + "_dataout"
+        self.get_logger().info(f"save_dir: {save_dir}")
+        
+        self.declare_parameter('expmt_name', save_dir)
+        self.expmt_name = self.get_parameter('expmt_name').value + "/point_cloud_out"
 
         os.makedirs(self.expmt_name, exist_ok=True)
+        self.get_logger().info(f"made dir: {self.expmt_name}")
 
         self.pc_subscriber = self.create_subscription(
             PointCloud2, '/cloud_map', self.pc_callback, 10)
