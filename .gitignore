@@ -5,3 +5,5 @@ build
 log
 experiments_backup
 Experiment_any_dataout/
+*.DS_Store*
+.venv

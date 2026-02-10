@@ -2,7 +2,10 @@ import open3d as o3d
 import numpy as np
 
 print("Loading point cloud...")
-pcd = o3d.io.read_point_cloud("../Experiments_any_dataout/final_pointcloud.ply")
+
+exp_path='experiments/northeastpartial0/point_cloud_out'
+
+pcd = o3d.io.read_point_cloud(f"{exp_path}/final_pointcloud.ply")
 
 pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))
 
@@ -22,4 +25,4 @@ mesh_frame = o3d.geometry.TriangleMesh.create_coordinate_frame(
 )
 
 o3d.visualization.draw_geometries([mesh, mesh_frame])
-o3d.io.write_triangle_mesh("final_mesh.ply", mesh)
+o3d.io.write_triangle_mesh(f"{exp_path}/final_mesh.ply", mesh)
