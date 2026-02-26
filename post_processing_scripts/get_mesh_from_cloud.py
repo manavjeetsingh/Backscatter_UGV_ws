@@ -3,7 +3,8 @@ import numpy as np
 
 print("Loading point cloud...")
 
-exp_path='experiments/northeastpartial0/point_cloud_out'
+exp_folder="northeast5"
+exp_path=f'experiments/{exp_folder}/point_cloud_out'
 
 pcd = o3d.io.read_point_cloud(f"{exp_path}/final_pointcloud.ply")
 

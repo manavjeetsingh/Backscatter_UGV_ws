@@ -111,7 +111,7 @@ def plot_poses_flat(pos_all, orientation_all):
     plt.show()
 
 
-def extract_plot(data, gt=None, plotting=False):
+def extract_pos_odom(data, gt=None, plotting=False):
     pos_expmts=[]
     pos_all=[]
     
@@ -166,10 +166,10 @@ def points_to_spheres(points, radius=0.01, color=[1, 0, 0]):
 if __name__ == "__main__":
 
     print("Loading mesh...")
-    exp_path = 'experiments/northeastpartial0'
-    json_name = 'northeastpartial0'
+    exp_path = 'experiments/northeast4'
+    json_name = 'northeast4'
     
-    pos_exp, pos_all, orientation_exp, orientation_all = extract_plot(load_json(f"{exp_path}/{json_name}.json"), plotting=False)
+    pos_exp, pos_all, orientation_exp, orientation_all = extract_pos_odom(load_json(f"{exp_path}/{json_name}.json"), plotting=False)
     
     plot_poses_flat(pos_exp, orientation_exp)
     
